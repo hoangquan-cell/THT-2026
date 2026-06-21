@@ -1,0 +1,26 @@
+:root {
+    --blue-color: #007bff;
+    --white-color: #ffffff;
+    --green-color: #28a745;
+    --blue-hover-color: #605FAF;
+    --body-color: #e8e9ea;
+    --sidebar-color: #ffffff;
+    --border-color: black;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    line-height: 1.5rem;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+* { 
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--body-color);
+}
